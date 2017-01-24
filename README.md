@@ -1,5 +1,13 @@
 # Useful commands for Opensource Git workflow 
 
+### Checking out PR's
+
+```sh
+git fetch origin (or upstream) pull/ID/head:BRANCHNAME
+
+git checkout BRANCHNAME
+```
+
 ### Forked Rebases
 
 ```sh
